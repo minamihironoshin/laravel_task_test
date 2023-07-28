@@ -31,7 +31,7 @@ class StoreContactRequest extends FormRequest
             'gender' => ['required', 'boolean'],
             'age' => ['required'],
             'contact' => ['required', 'string', 'max:200'],
-            'caution' => ['required', 'accepted'] 
+            // 'caution' => ['required', 'accepted']
         ];
     }
 }
